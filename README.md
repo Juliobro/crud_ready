@@ -32,10 +32,10 @@ tabla *tareas*:
 `` ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;``
 
 Luego de haber creado la tabla en tu DB, ahora simplemente
-deberías ir a la clase de *Conexion.java* (src/main/java/com/juliobro/crudready/config/Conexion.java)
+deberías ir a la clase de [*Conexion.java*](https://github.com/Juliobro/crud_ready/blob/main/src/main/java/com/juliobro/crudready/config/Conexion.java) (src/main/java/com/juliobro/crudready/config/Conexion.java)
 y configurar los campos de acuerdo a tu entorno personal. 
-Puedes testear que tu conexión funcione correctamente en
-src/test/java/com/juliobro/crudready/config/ConexionTest.
+Puedes testear que tu conexión funcione correctamente en [*ConexionTest*](https://github.com/Juliobro/crud_ready/blob/main/src/test/java/com/juliobro/crudready/config/ConexionTest.java)
+(src/test/java/com/juliobro/crudready/config/ConexionTest).
 
 Y ya estaría, configuras tu servidor (yo utilicé un servidor
 Tomcat en su versión 10.1.30) y no debería faltar nada más para 

@@ -29,7 +29,7 @@ tabla *tareas*:
 `` `fecha_terminal` datetime NOT NULL,``<br>
 `` `estado` varchar(10) NOT NULL DEFAULT 'PENDIENTE',``<br>
 `` PRIMARY KEY (`id`)``<br>
-`` ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;``
+`` ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;``
 
 Luego de haber creado la tabla en tu DB, ahora simplemente
 deberías ir a la clase de [*Conexion.java*](https://github.com/Juliobro/crud_ready/blob/main/src/main/java/com/juliobro/crudready/config/Conexion.java) (src/main/java/com/juliobro/crudready/config/Conexion.java)
